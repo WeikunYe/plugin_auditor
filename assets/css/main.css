@@ -1,0 +1,162 @@
+@charset 'UTF-8';
+
+
+/*
+	Style for thead when sorted
+*/
+
+.widefat thead tr th:hover {
+	cursor: pointer;
+}
+
+.widefat thead tr th.sorttable_nosort:hover {
+	cursor: default;
+}
+
+.add-or-edit-comment {
+	width: 100%;
+}
+
+table {
+	border-collapse:collapse;
+	box-shadow:1px 1px 5px #bbb;
+	margin-bottom:1.5em;
+}
+
+td,th {
+	vertical-align:top;
+	padding:4px 8px;
+	text-shadow:0 1px 0 #fff;
+	border: 1px solid #ccc
+}
+
+th {
+	font-weight:bold;
+}
+
+td {
+	min-height: 20px;
+}
+
+thead {
+	background-color: #f0f0f0;
+}
+
+th {
+	font-weight:bold !important;
+}
+
+@media screen and (max-width: 800px) {
+	table {
+		width:100%;
+	}
+
+	thead {
+		display:none;
+	}
+	
+	tbody tr:nth-of-type(2n+1) {
+		background-color:inherit;
+	}
+	
+	tr td:first-child {
+		background:#f0f0f0;
+		font-weight:bold;
+		font-size:1.3em;
+	}
+	
+	tbody td {
+		display:block;
+		text-align:center;
+	}
+}
+
+.hide {
+	display: none;
+	visibility: none;
+}
+
+.no-style {
+	color: #555555;
+	text-decoration: none;
+}
+
+.plugin-auditor-info {
+    display: inline-block;
+    line-height: 19px;
+    font-size: 14px;
+    text-align: left;
+    margin: 10px 20px 0 20px;
+    background-color: #fdfdfd;
+    border-left: 4px solid #ffba00;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding-right: 10px;
+}
+
+.plugin-auditor-info p {
+    margin-left: 10px;
+
+}
+
+.list-multisites {
+	background: #fefefe;
+	margin-top: 10px;
+	padding: 10px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+
+/* Ajax requests and insertions */
+.add-or-edit-comment{
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.wp-core-ui .button-primary.pa-save{
+	background: orange;
+	background-color: orange;
+	border-color: orange;
+	box-shadow: 0 1px 0 orange;
+	text-shadow: 0 -1px 1px orange, 1px 0 1px orange, 0 1px 1px orange, -1px 0 1px orange;
+}
+
+.wp-core-ui .button-primary.pa-save:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.pa-editable{
+	background: #f6f6f6;
+	outline-color: orange;
+	outline-width: 2px;
+	outline-style: double;
+}
+
+.form-edit-comment .loader{
+	display: none;
+}
+
+.form-edit-comment .loader img{
+	width: 25px;
+	display: block;
+	margin: 0 auto;
+}
+
+.wp-core-ui .button-primary.pa-success{
+	background: #27ae60;
+	background-color: #27ae60;
+	border-color: #27ae60;
+	box-shadow: 0 1px 0 #27ae60;
+	text-shadow: 0 -1px 1px #27ae60, 1px 0 1px #27ae60, 0 1px 1px #27ae60, -1px 0 1px #27ae60;
+}
+
+.wp-core-ui .button-primary.pa-error{
+	background: #c0392b;
+	background-color: #c0392b;
+	border-color: #c0392b;
+	box-shadow: 0 1px 0 #c0392b;
+	text-shadow: 0 -1px 1px #c0392b, 1px 0 1px #c0392b, 0 1px 1px #c0392b, -1px 0 1px #c0392b;
+}

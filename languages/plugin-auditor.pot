@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Auditor\n"
+"POT-Creation-Date: 2017-01-10 10:53-0200\n"
+"PO-Revision-Date: 2017-01-10 10:53-0200\n"
+"Last-Translator: \n"
+"Language-Team: Wholegrain Digital <eat@wholegraindigital.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../MEGA/plugin-auditor/trunk\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;printf;print_r\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: plugin-audit.php:282 settings.php:40 settings.php:52 settings.php:235
+msgid "Plugin Auditor"
+msgstr ""
+
+#: plugin-audit.php:287
+#, php-format
+msgid "Why did you install <b>\"%1$s\"</b> ?"
+msgstr ""
+
+#: plugin-audit.php:290
+msgid "add comments here"
+msgstr ""
+
+#: plugin-audit.php:293
+msgid "Save"
+msgstr ""
+
+#: plugin-audit.php:294
+msgid "Not now"
+msgstr ""
+
+#: plugin-audit.php:302
+#, php-format
+msgid "<b>%1$s</b> of <b>%2$s</b>  plugins awaiting an explanation"
+msgstr ""
+
+#: settings.php:162
+msgid "Saved"
+msgstr ""
+
+#: settings.php:163
+msgid "Not saved"
+msgstr ""
+
+#: settings.php:236
+msgid ""
+"Below is a record of all installed plugins, including details of who "
+"installed them, when they were installed and why. This information should "
+"make it easier to maintain your WordPress website."
+msgstr ""
+
+#: settings.php:237
+msgid ""
+"If you are adding a comment to a plugin, please ensure that you state the "
+"reason for adding the plugin, not simply describe the functionality of the "
+"plugin. You will thank yourself for this later!"
+msgstr ""
+
+#: settings.php:238
+msgid "Export data to Excel"
+msgstr ""
+
+#: settings.php:239
+msgid "Export data to CSV"
+msgstr ""
+
+#: settings.php:247
+msgid "Plugin"
+msgstr ""
+
+#: settings.php:248
+msgid "User"
+msgstr ""
+
+#: settings.php:249
+msgid "Date Installed"
+msgstr ""
+
+#: settings.php:250
+msgid "Reason for Installation"
+msgstr ""
+
+#: settings.php:251
+msgid "Manage Comments"
+msgstr ""
+
+#: settings.php:269 settings.php:271
+msgid "Unkown User"
+msgstr ""
+
+#: settings.php:292
+msgid "Add comment"
+msgstr ""
+
+#: settings.php:292
+msgid "Edit comment"
+msgstr ""
+
+#: settings.php:315
+msgid ""
+"<p><b>Note: </b>You are in a multisite installation. Below you can see "
+"plugins that are activated in each site!<p>"
+msgstr ""
+
+#: settings.php:317
+msgid "Network Activated Plugins"
+msgstr ""
+
+#: settings.php:351
+msgid "Sites"
+msgstr ""
